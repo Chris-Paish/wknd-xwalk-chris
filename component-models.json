@@ -295,10 +295,10 @@
     "id": "adaptive-form-reference",
     "fields": [
       {
-            "component": "aem-content",
-            "name": "formPath",
-            "label": "Adaptive Form",
-            "valueType": "string"
+        "component": "aem-content",
+        "name": "formPath",
+        "label": "Adaptive Form",
+        "valueType": "string"
       },
       {
         "component": "reference",
@@ -324,16 +324,16 @@
   {
     "id": "form",
     "fields": [
-       {
+      {
         "component": "select",
         "name": "thankYouOption",
         "label": "On Submit",
         "valueType": "string",
         "options": [
-              {
-                  "name": "Show message",
-                  "value": "message"
-              }
+          {
+            "name": "Show message",
+            "value": "message"
+          }
         ]
       },
       {
@@ -365,7 +365,12 @@
         "name": "enableRestEndpointPost",
         "label": "Enable POST request",
         "valueType": "string",
-        "condition": { "==": [{ "var": "actionType" }, "fd/af/components/guidesubmittype/restendpoint"] }
+        "condition": {
+          "==": [
+            { "var": "actionType" },
+            "fd/af/components/guidesubmittype/restendpoint"
+          ]
+        }
       },
       {
         "component": "text",
@@ -1920,20 +1925,20 @@
   {
     "id": "quote",
     "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       }
-     ]
-  }  
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      }
+    ]
+  }
 ]
