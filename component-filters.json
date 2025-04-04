@@ -38,7 +38,8 @@
       "simple-form",
       "form",
       "form-embed",
-      "quote"
+      "quote",
+      "card"
     ]
   },
   {

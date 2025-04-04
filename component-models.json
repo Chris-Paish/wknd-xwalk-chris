@@ -1940,5 +1940,31 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "fileReference",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "cardTitle",
+        "value": "",
+        "label": "Title"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "cardBody",
+        "value": "",
+        "label": "Text"
+      }
+    ]
   }
 ]
